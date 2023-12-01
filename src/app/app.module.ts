@@ -15,6 +15,10 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
 import { NavbarComponent } from './navbar/navbar.component';
 import { PsychologistsComponent } from './psychologists/psychologists.component';
 import { TestYourselfComponent } from './test-yourself/test-yourself.component';
+import { HeroComponent } from './home/components/hero/hero.component';
+import { PartnersComponent } from './home/components/partners/partners.component';
+import { HowItWorksComponent } from './home/components/how-it-works/how-it-works.component';
+import { PsychologistsListComponent } from './home/components/psychologists-list/psychologists-list.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { TestYourselfComponent } from './test-yourself/test-yourself.component';
     InstitutionalComponent,
     BlogComponent,
     LoginRegisterComponent,
+    HeroComponent,
+    PartnersComponent,
+    HowItWorksComponent,
+    PsychologistsListComponent,
   ],
   imports: [
     BrowserModule,
