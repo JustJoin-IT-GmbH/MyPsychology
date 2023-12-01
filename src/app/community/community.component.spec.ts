@@ -8,7 +8,7 @@ describe('CommunityComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CommunityComponent]
+      declarations: [CommunityComponent]
     })
     .compileComponents();
     

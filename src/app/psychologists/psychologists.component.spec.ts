@@ -8,7 +8,7 @@ describe('PsychologistsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PsychologistsComponent]
+      declarations: [PsychologistsComponent]
     })
     .compileComponents();
     
